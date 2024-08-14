@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Create and Populate JS File",
+        "type": "shell",
+        "command": "node createAndFillFile.js",
+        "problemMatcher": []
+      }
+    ]
+  }
+  

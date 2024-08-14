@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "electron": "^31.3.1",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.55.4"
+  },
+  "name": "ticketqueue",
+  "description": "Our Ticketing Queue",
+  "version": "1.0.0",
+  "main": "./Server/server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startAI": "electron ./ChatGPT/server"
+  },
+  "author": "",
+  "license": "ISC"
+}
